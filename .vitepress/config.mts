@@ -4,8 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "OninesixY的小站",
   description: "一个非常网站的网站",
-  cleanUrls: false,
-  srcExclude: ['**/admin/**'],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
