@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: TheOninesixY/WebSite
+  branch: main
+
+media_folder: "docs/public/images" # 图片上传后存放的路径
+public_folder: "/images"           # 图片在 Markdown 中显示的路径
+
+collections:
+  - name: "blog"               # 后台显示的分类名称
+    label: "文章"              # 后台显示的中文标签
+    folder: "docs/posts"       # 你存放 Markdown 文件的文件夹路径
+    create: true               # 是否允许在后台新建文件
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # 自动生成的文件名格式
+    fields:                    # 定义 Markdown 头部的 YAML 变量
+      - {label: "标题", name: "title", widget: "string"}
+      - {label: "发布日期", name: "date", widget: "datetime"}
+      - {label: "摘要", name: "description", widget: "text", required: false}
+      - {label: "正文", name: "body", widget: "markdown"}
