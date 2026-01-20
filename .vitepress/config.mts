@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "OninesixY的小站",
   description: "一个非常网站的网站",
+  cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -20,7 +21,7 @@ export default defineConfig({
           { text: 'autoRe', link: '/docs/tools/autoRe' },
           { text: 'ByeCNBing', link: '/docs/tools/ByeCNBing' },
           { text: 'CFAD', link: '/docs/tools/CFAD' },
-          { text: 'QingTab', link: 'https://theoninesixy.github.io/Tools/QingTab/'}
+          { text: 'QingTab', link: '/docs/public/QingTab'}
         ]
       },
       {
