@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "OninesixY的小站"
-  text: "一个非常网站的网站"
-  tagline: My great project tagline
+  text: ""
+  tagline: 一个非常网站的网站
   actions:
     - theme: brand
       text: Markdown Examples
