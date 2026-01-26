@@ -15,9 +15,6 @@ hero:
     - theme: alt
       text: 关于
       link: README
-    - theme: alt
-      text: 旧版站
-      link: https://old.oninesixy.pages.dev
 
 features:
   - title: 温馨提示
