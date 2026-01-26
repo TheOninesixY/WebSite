@@ -6,6 +6,8 @@ hero:
   name: "OninesixY的小站"
   text: ""
   tagline: OninesixY.pages.dev
+  image:
+    ## src: favicon.ico
   actions:
     - theme: brand
       text: 去看看有什么
