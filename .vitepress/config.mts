@@ -37,8 +37,8 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '文档', link: '/docs'},
-      { text: '关于', link: '/about' },
-      { text: '旧版站', link: 'https://theoninesixy.github.io'},
+      { text: '关于', link: 'README' },
+      { text: '旧版站', link: 'https://old.oninesixy.pages.dev'},
     ],
 
     sidebar: [

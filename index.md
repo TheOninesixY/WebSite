@@ -14,10 +14,10 @@ hero:
       link: /docs
     - theme: alt
       text: 关于
-      link: /about
+      link: README
     - theme: alt
       text: 旧版站
-      link: https://theoninesixy.github.io
+      link: https://old.oninesixy.pages.dev
 
 features:
   - title: 温馨提示
